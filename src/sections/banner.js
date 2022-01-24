@@ -1,7 +1,6 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
-import { Container, Box, Heading, Text, Image, Button } from 'theme-ui';
-import BannerImg from 'assets/banner-thumb.png';
+import { Container, Box, Heading, Text, Image, Button, Embed } from 'theme-ui';
 import ShapeLeft from 'assets/shape-left.png';
 import ShapeRight from 'assets/shape-right.png';
 
@@ -11,7 +10,7 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Top Quality Digital Products To Explore
+            Te ayudamos a sacar el mayor partido a tu bono digital
           </Heading>
           <Text as="p" variant="heroSecondary">
             Get your blood tests delivered at let home collect sample from the
@@ -22,7 +21,7 @@ export default function Banner() {
         </Box>
 
         <Box sx={styles.banner.imageBox}>
-          <Image src={BannerImg} alt="banner" />
+          <Embed src="https://www.youtube.com/embed/fI_Y5W25hPs" />
         </Box>
       </Container>
     </section>

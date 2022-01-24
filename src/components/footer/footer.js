@@ -1,8 +1,7 @@
 /** @jsx jsx */
 import { jsx, Box, Grid, Container, Image, Heading, Text } from 'theme-ui';
-import { Link } from 'components/link';
 import data from './footer.data';
-import FooterLogo from 'assets/logo.svg';
+import FooterLogo from 'assets/icons/logos-footer.svg';
 export default function Footer() {
   return (
     <footer sx={styles.footer}>
@@ -23,21 +22,7 @@ export default function Footer() {
         </Grid>
         {/* End of footer widgets area */}
         <Box sx={styles.footer.footerBottomArea}>
-          <Link path="/">
-            <Image src={FooterLogo} alt="Logo" />
-          </Link>
-          <Box sx={styles.footer.menus}>
-            <nav>
-              {data.menuItem.map(({ path, label }, i) => (
-                <Link
-                  path={path}
-                  key={i}
-                  label={label}
-                  sx={styles.footer.link}
-                />
-              ))}
-            </nav>
-          </Box>
+          <Image src={FooterLogo} alt="Logo" />
           <Text sx={styles.footer.copyright}>
             Copyright by {new Date().getFullYear()} RedQ, Inc
           </Text>
