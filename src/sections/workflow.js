@@ -10,27 +10,27 @@ import ArrowEven from 'assets/arrowEven.svg';
 const data = [
   {
     id: 1,
-    title: 'Set disbursement Instructions',
+    title: 'Reunión de identificación de necesidades',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Lo primero de todo es conocer tu empresa al detalle, el punto en el que estás y hacia dónde quieres ir y tratar de identificar la mejor solución a nivel tecnológico, UX y UI para tu empresa. Esta es la reunión donde no queremos que se te quede nada en el tintero.',
   },
   {
     id: 2,
-    title: 'Assembly retrieves funds from your account',
+    title: 'Presentación de necesidades y objetivos',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Este paso es el que más nos gusta y para nosotros el más importante. Te presentaremos las necesidades que hemos detectado en la runión previa y cómo hemos pensado en resolverlas y los retos a los que nos enfrentamos dado tus objetivos marcados, presentándote la User Experience mediante Mockups y de las tecnologías propuestas para resolver el problema.',
   },
   {
     id: 3,
-    title: 'Assembly initiates disbursement',
+    title: 'Desarrollo de la solución de forma iterativa',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Lo que más nos gusta en GRRROW es mostrar como va CRECIENDO tu proyecto. Te haremos demos semanales o bisemanales dependiendo de la embergadura del proyecto e iremos iterando sobre él semana tras semana, lo que nos permite ir adaptando el desarrollo y poder tener un producto visible desde la segunda semana.',
   },
   {
     id: 4,
-    title: 'Customer receives funds payment',
+    title: 'Entrega, Formación y Mantenimiento',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Una vez acabado el proyecto, en GRRROW nos gusta realizar una pequeña formación para que el propio cliente pueda realizar modificaciones rápidas en el desarrollo. Por otro lado también ofrecemos la posibilidad de contratar un mantenimiento, pero siempre dando las herramientas para que lo hagáis vosotros si lo preferís.',
   },
 ];
 
@@ -39,8 +39,8 @@ export default function WorkFlow() {
     <section sx={styles.workflow}>
       <Container>
         <SectionHeader
-          slogan="Whats the function"
-          title="Let’s see how it works"
+          slogan="¿CUÁL ES EL PROCESO?"
+          title="Esta es nuestra forma de trabajar"
           isWhite={true}
         />
 

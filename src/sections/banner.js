@@ -13,11 +13,11 @@ export default function Banner() {
             Te ayudamos a sacar el mayor partido a tu bono digital
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Get your blood tests delivered at let home collect sample from the
-            victory of the managements that supplies best design system
-            guidelines ever.
+            En un mundo digital, no hay mejor manera que crecer digitalizando y nosotros te acompañaremos
+            y asesoramos combinando tecnología, User Experience y Research de usuario hasta llegar al GRRROW!
+            e impacto que necesitas.
           </Text>
-          <Button variant="primary">Explore</Button>
+          <Button variant="primary">Conoce más</Button>
         </Box>
 
         <Box sx={styles.banner.imageBox}>

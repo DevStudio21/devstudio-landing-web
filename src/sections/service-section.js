@@ -1,45 +1,36 @@
 import React, { useState } from 'react';
 /** @jsx jsx */
-import {
-  jsx,
-  Container,
-  Box,
-  Grid,
-  Text,
-  Heading,
-  Button,
-  Image,
-} from 'theme-ui';
+import { jsx,Container,Box,Grid,Text,Heading,Button,Image } from 'theme-ui';
 import { keyframes } from '@emotion/core';
 import TextFeature from 'components/text-feature';
 import ModalVideo from 'react-modal-video';
 import { IoIosPlay } from 'react-icons/io';
 
-import ServiceThumb from 'assets/service-thumb.png';
+import VideoThumb from 'assets/video-thumb.jpg';
 import shapePattern from 'assets/shape-pattern1.png';
 
 import Smart from 'assets/services/smart.svg';
 import Secure from 'assets/services/secure.svg';
 
 const data = {
-  subTitle: 'our services',
-  title: 'Business Goals Achieved with Design',
+  subTitle: '¿Te ayudamos?',
+  title: 'Somos agentes digitalizadores, ¿Conoces Kit Digital?',
   features: [
     {
       id: 1,
       imgSrc: Smart,
-      altText: 'Smart Features',
-      title: 'Smart Features',
+      altText: 'Objetivo',
+      title: 'Objetivo',
       text:
-        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
+        'Promover la digitalización de pequeñas empresas, micropymes y autónomos con hasta 2000€ de Bono Digital para implantar cualquiera de las soluciones digitalizadoras que les permitirán un avance importante en su madurez digital.',
     },
     {
       id: 2,
       imgSrc: Secure,
-      altText: 'Secure Contents',
-      title: 'Secure Contents',
+      altText: '¿Cómo se usa el Bono Digital?',
+      title: '¿Cómo se usa el Bono Digital?',
       text:
-        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
+        'En GRRROW estamos preparados para ser agentes digitalizadores y que puedas elegirnos para que te guiemos en dar ese salto de madurez en tu empresa y que consigamos el verdadero GRRROW!.',
     },
   ],
 };
@@ -55,7 +46,7 @@ export default function ServiceSection() {
     <section sx={{ variant: 'section.services' }}>
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
-          <Image src={ServiceThumb} alt="Thumbnail" />
+          <Image src={VideoThumb} alt="Thumbnail" />
           <Button
             sx={styles.videoBtn}
             onClick={handleClick}
@@ -90,7 +81,7 @@ export default function ServiceSection() {
       <ModalVideo
         channel="youtube"
         isOpen={videoOpen}
-        videoId="ZNA9rmDsYVE"
+        videoId="fI_Y5W25hPs"
         onClose={() => setVideoOpen(false)}
       />
     </section>

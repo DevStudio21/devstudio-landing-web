@@ -12,34 +12,34 @@ const data = [
   {
     id: 1,
     imgSrc: Performance,
-    altText: 'Fast Performance',
-    title: 'Fast Performance',
+    altText: 'Construye tu site',
+    title: 'Construye tu site',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Una web fácil en la que tu puedas gestionar el contenido con facilidad si lo deseas.',
   },
   {
     id: 2,
     imgSrc: Partnership,
-    altText: 'Partnership deal',
-    title: 'Partnership deal',
+    altText: 'Posiciona tu web',
+    title: 'Posiciona tu web',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Se visible y así llegarás a clientes más potenciales.',
   },
   {
     id: 3,
     imgSrc: Subscription,
-    altText: 'Pro Subscription',
-    title: 'Pro Subscription',
+    altText: 'Una User Experience accesible',
+    title: 'Una User Experience accesible',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Pensada para tus clientes a través del research que haremos para conocerlos.',
   },
   {
     id: 4,
     imgSrc: Support,
-    altText: 'Customer Support',
-    title: 'Customer Support',
+    altText: 'UI innovadora y moderna',
+    title: 'UI innovadora y moderna',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Trabajamos con las técnicas más modernas e innovadoras para conseguir una interfaz atractiva y adaptada para tus clientes.',
   },
 ];
 
@@ -48,8 +48,8 @@ export default function KeyFeature() {
     <section sx={{ variant: 'section.keyFeature' }} id="work">
       <Container>
         <SectionHeader
-          slogan="Whats the function"
-          title="Meet the feature of product"
+          slogan="Qué ofrecemos"
+          title="Conoce como podemos hacer crecer tu negocio"
         />
 
         <Grid sx={styles.grid}>

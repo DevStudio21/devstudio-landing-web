@@ -180,7 +180,7 @@ const data = [
 export default function TeamSection() {
   return (
     <section id="team">
-      <Container>
+      <Container sx={{mt:5}}>
         <SectionHeader
           slogan="our team"
           title="The most qualified and talented individuals"

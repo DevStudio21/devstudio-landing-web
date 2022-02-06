@@ -21,18 +21,16 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <StickyProvider>
         <Layout>
-          <SEO title="DevStudio" />
+          <SEO title="GRRROW" />
           <Banner />
           <KeyFeature />
           <ServiceSection />
-          <Feature />
-          <CoreFeature />
           <WorkFlow />
-          <Package />
+          {/* <Package /> */}
           <TeamSection />
-          <TestimonialCard />
-          <BlogSection />
-          <Subscribe />
+          {/* <TestimonialCard /> */}
+          {/* <BlogSection /> */}
+          {/* <Subscribe /> */}
         </Layout>
       </StickyProvider>
     </ThemeProvider>
