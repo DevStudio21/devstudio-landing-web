@@ -49,7 +49,7 @@ export default function KeyFeature() {
       <Container>
         <SectionHeader
           slogan="Qué ofrecemos"
-          title="Conoce como podemos hacer crecer tu negocio"
+          title="Conoce cómo podemos hacer crecer tu negocio"
         />
 
         <Grid sx={styles.grid}>

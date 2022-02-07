@@ -13,7 +13,7 @@ export default function Banner() {
             Te ayudamos a hacer crecer tu negocio
           </Heading>
           <Text as="p" variant="heroSecondary">
-            En un mundo digital, no hay mejor manera que crecer digitalizando y nosotros te acompañaremos
+            En un mundo digital, no hay mejor manera que crecer digitalizando, y nosotros te acompañaremos
             y asesoramos combinando tecnología, User Experience y Research de usuario hasta llegar al GRRROW!
             e impacto que necesitas.
           </Text>
