@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
-import { Container, Box, Heading, Text, Image, Button, Embed } from 'theme-ui';
+import { Container, Box, Heading, Text, Button, Embed } from 'theme-ui';
 import ShapeLeft from 'assets/shape-left.png';
 import ShapeRight from 'assets/shape-right.png';
 
@@ -10,7 +10,7 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Te ayudamos a sacar el mayor partido a tu bono digital
+            Te ayudamos a hacer crecer tu negocio
           </Heading>
           <Text as="p" variant="heroSecondary">
             En un mundo digital, no hay mejor manera que crecer digitalizando y nosotros te acompañaremos
@@ -19,7 +19,6 @@ export default function Banner() {
           </Text>
           <Button variant="primary">Conoce más</Button>
         </Box>
-
         <Box sx={styles.banner.imageBox}>
           <Embed src="https://www.youtube.com/embed/fI_Y5W25hPs" />
         </Box>
